@@ -1,0 +1,68 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.crawljax.plugins</groupId>
+		<artifactId>plugin</artifactId>
+		<version>2.2</version>
+	</parent>
+
+	<artifactId>jsmodify</artifactId>
+	<version>1.0-SNAPSHOT</version>
+
+	<name>JSModify Plugin</name>
+	<description>
+		Intercept and instrument JavaScript code.
+  	</description>
+	<url>http://crawljax.com</url>
+
+	<properties>
+		<crawljax.version>2.2</crawljax.version>
+	</properties>
+
+	<scm>
+		<connection>scm:git:git@github.com:crawljax/jsmodify-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:crawljax/jsmodify-plugin.git</developerConnection>
+		<url>https://github.com/crawljax/jsmodify-plugin</url>
+	</scm>
+
+	<licenses>
+		<license>
+			<name>GNU General Public License v3</name>
+			<url>LICENSE</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/crawljax/jsmodify-plugin/issues</url>
+	</issueManagement>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.crawljax.plugins</groupId>
+			<artifactId>proxy</artifactId>
+			<version>1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mozilla</groupId>
+			<artifactId>rhino</artifactId>
+			<version>1.7R4</version>
+		</dependency>
+
+	</dependencies>
+
+	<developers>
+		<developer>
+			<name>Shabnam Mirshokraie</name>
+			<email>mirshokraie@gmail.com</email>
+			<organization>ECE, UBC</organization>
+		</developer>
+	</developers>
+
+</project>
